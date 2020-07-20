@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+}
+#logo
+{
+    margin: 10px 25px;
+}
+.foodie
+{
+    border-radius: 50%;
+    width: 120px;
+}
+#navbar
+{
+    position: relative;
+}
+#navbar ul
+{
+    display: flex;
+}
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+   height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.3em;
+    
+}
+#navbar ul li a
+{
+    color: white;
+    display: block;
+    padding: 4px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover
+{
+    color: black;
+    background-color: white;
+}
+#welcome
+{
+    margin-left: 15%; 
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before
+{
+    content: "";
+    position: absolute;
+    
+}
+#home h1
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 30%;
+}
+#home p
+{
+   /* margin-right: 30%;*/
+    font-size: 2.0rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+
+}
+/*#clients
+{
+    margin-right: auto;
+}*/
+#services
+{
+    margin-right: auto;
+}
+.btn
+{
+    /*margin-right: 30%;*/
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+     border: 2px solid black;
+     border-radius: 40%;
+     padding: 10px;
+     cursor: pointer;
+    
+}
+.h-primary
+{
+    /*margin-right: 55%;*/
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.h-secondary
+{
+    
+    font-size: 2.2rem;
+}
+#services
+{
+    margin: 34px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+#services .box
+{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: rgb(253, 238, 238);
+}
+#services .box img
+{
+    display: block;
+    margin: auto;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+.client-item
+{
+    padding: 34px;
+}
+.clients-container
+{
+    background-color: rgb(235, 96, 96);
+}
+footer
+{
+    background-color: rgb(158, 140, 140);
+    padding-left: 40%;
+}
+
+#contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 34px;
+}
+#contact-box textarea
+{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form
+{
+    width: 40%;
+}
+#contact-box label
+{
+    font-size: 1.3rem;
+}
