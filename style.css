@@ -76,28 +76,28 @@
 {
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-right: 30%;
+    margin-right: 40%;
 }
 #home p
 {
-   /* margin-right: 30%;*/
+    margin-right: 30%;
     font-size: 2.0rem;
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
 
 }
-/*#clients
+#clients
 {
     margin-right: auto;
-}*/
+}
 #services
 {
     margin-right: auto;
 }
 .btn
 {
-    /*margin-right: 30%;*/
+    margin-right: 30%;
     font-size: 1.6rem;
     color: white;
     text-align: center;
