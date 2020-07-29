@@ -62,7 +62,8 @@
 {
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
+   /* padding: 3px 200px;*/
+   text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -76,11 +77,11 @@
 {
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-right: 40%;
+    /*margin-right: 40%;*/
 }
 #home p
 {
-    margin-right: 30%;
+    /*margin-right: 30%;*/
     font-size: 2.0rem;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -97,7 +98,7 @@
 }
 .btn
 {
-    margin-right: 30%;
+    /*margin-right: 30%;*/
     font-size: 1.6rem;
     color: white;
     text-align: center;

@@ -10,7 +10,7 @@
 {
     height: 280px;
     flex-direction: column;
-    padding: 3px 68px;
+    /*spadding: 3px 68px;*/
 }
 #home::before
 {
